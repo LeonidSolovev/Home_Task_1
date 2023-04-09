@@ -5,7 +5,7 @@
 
 Console.Write("Введите число: ");
 string inputA = Console.ReadLine();
-int numberA = int.Parse(inputA);
+int numberA = int.Parse(inputA)?? "";
 
 if (numberA%2==0){
 Console.WriteLine($"{numberA} -> да");
